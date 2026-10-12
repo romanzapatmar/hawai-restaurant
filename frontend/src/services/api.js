@@ -1,4 +1,4 @@
-const API_BASE_URL = "const API_BASE_URL = "https://hawai-restaurant-api.onrender.com";";
+const API_BASE_URL = "https://hawai-restaurant-api.onrender.com";
 
 
 export async function getCategories() {
