@@ -16,12 +16,13 @@ app = FastAPI(
 
 
 app.add_middleware(
-    CORSMiddleware,
+    CORSMiddleware,    
     allow_origins=[
         "http://localhost:5173",
         "http://localhost:5174",
         "http://127.0.0.1:5173",
         "http://127.0.0.1:5174",
+        "https://hawai-restaurant-2p6p8nm66-romanzapatmars-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
